@@ -1,0 +1,552 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+/*my code here*/
+.app-image1{
+   background-image: url(../images/home/mac-laptop.jpg);
+   width: 1000px; 
+   height: 700px;
+    background-size: cover;
+    margin: 3% auto;
+   
+}
+.apple-layout {
+    
+    background-color: #ffffff; /* ነጭ ዳራ */
+    
+    /* ምስሉን ከታች ለማድረግ */
+    background-repeat: no-repeat;
+    background-size: 50%; /* ላፕቶፑ በጣም ትልቅ እንዳይሆን መጠኑን እዚህ መቀነስ ይቻላል */
+    background-position: bottom center; /* ምስሉን ወደ ታችኛው ጫፍ ይገፋዋል */
+    
+    position: relative;
+}
+
+/* ጽሑፉ ከላይ ጎልቶ እንዲታይ */
+.text-top-area {
+    margin-top: 20px; /* ከላይኛው ጫፍ ያለው ርቀት */
+    color: #1d1d1f;
+}
+
+h1 {
+    letter-spacing: -0.02em;
+}
+
+.apple-hero-section {
+    width: 100%;
+    height: 100vh; /* ሙሉ ስክሪን እንዲሆን */
+    background-color: #000000; /* ዳራው ጥቁር እንዲሆን (ልክ እንደ ምስልህ) */
+    position: relative;
+    overflow: hidden;
+    color: white; /* ጽሑፉ ነጭ እንዲሆን */
+}
+
+/* ምስሉን እዚህ ያስገቡ */
+.iphone-splash {
+    background-image: url(/apple-responsive-staring-base-code/images/home/iphone11-pro.jpg); /* የምስሉን ሊንክ እዚህ ይተኩ */
+    background-repeat: no-repeat;
+    
+    /* ምስሉ ከታች እንዲሆን እና እንዳይቆረጥ */
+    background-size: cover; 
+    background-position: bottom center; 
+}
+
+/* ትንሿ ጽሑፍ (New/አዲስ) */
+.small-tag {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f5f5f7;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+}
+
+.display-2 {
+    letter-spacing: -0.02em;
+}
+
+/* ለሞባይል ስክሪን ማስተካከያ */
+@media (max-width: 768px) {
+    .display-2 { font-size: 40px; }
+    .apple-hero-section { height: 80vh; }
+}
+
+
+/* for iphone 11 image  */
+
+.iphone11 {
+    width: 100%;
+    height: 100vh; /* ሙሉ ስክሪን እንዲሆን */
+    background-color: #000000; /* ዳራው ጥቁር እንዲሆን (ልክ እንደ ምስልህ) */
+    position: relative;
+    overflow: hidden;
+    color: black; /* ጽሑፉ ነጭ እንዲሆን */
+}
+
+/* ምስሉን እዚህ ያስገቡ */
+.image2 {
+    background-image: url(/apple-responsive-staring-base-code/images/home/iphone11-colored.jpg); /* የምስሉን ሊንክ እዚህ ይተኩ */
+    background-repeat: no-repeat;
+    
+    /* ምስሉ ከታች እንዲሆን እና እንዳይቆረጥ */
+    background-size: cover; 
+    background-position: bottom center; 
+}
+
+/* ትንሿ ጽሑፍ (New/አዲስ) */
+.small-tag {
+    font-size: 14px;
+    font-weight: 600;
+    color: #171717;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+}
+
+.display-2 {
+    letter-spacing: -0.02em;
+}
+
+/* ለሞባይል ስክሪን ማስተካከያ */
+@media (max-width: 768px) {
+    .display-2 { font-size: 40px; }
+    .apple-hero-section { height: 80vh; }
+}
+
+/* ********************************* */
+/* ********************************* */
+.apple-card {
+  height: 80vh; /* ቁመቱ */
+  width: 100%;
+  position: relative;
+  background-color: #1111a8;
+  background-repeat: no-repeat;
+  background-size: contain; /* ምስሉ እንዳይቆረጥ */
+  background-position: bottom center; /* ምስሉን ወደ ታች ይገፋዋል */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 5px solid white; /* በሁለቱ መካከል መስመር እንዲኖር */
+  color: #000;
+}
+
+/* ምስሎቹን እዚህ ያስገቡ */
+.iphone-bg {
+  background-image: url(/apple-responsive-staring-base-code/images/home/watch-series-5.jpg); 
+}
+
+.watch-bg {
+  background-image: url('/apple-responsive-staring-base-code/images/home/apple-card.jpg');
+}
+
+/* ጽሑፉ ከላይ እንዲሆን */
+.content-overlay {
+  z-index: 10;
+  width: 100%;
+}
+
+.small-tag {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+/* ********************************* */
+/* ********************************* */
+/* የካርዶቹ የጋራ ስታይል */
+.apple-card {
+  width: 100%;
+  position: relative;
+  background-color: #f5f5f7;
+  background-repeat: no-repeat;
+  background-size: contain; /* ምስሉ እንዳይቆረጥ */
+  background-position: bottom center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.narrow-hero{
+  color: rgb(18, 207, 49);
+}
+/* ለሰፊው ምስል የተቀመጠ ቁመት (580px አካባቢ) */
+.wide-bg {
+  height: 580px;
+  background-image: url(/apple-responsive-staring-base-code/images/home/apple-tv-background.jpg); /* 1262x580 px ምስል እዚህ ይገባል */
+}
+
+/* ለጠባቡ ምስል የተቀመጠ ቁመት (384px አካባቢ) */
+.narrow-bg {
+  height: 580px; /* ጎን ለጎን ሲሆኑ ቁመታቸው እኩል እንዲሆን */
+  background-image: url(/apple-responsive-staring-base-code/images/home/air-pods.jpg); /* 301x384 px ምስል እዚህ ይገባል */
+  background-size: 80%; /* ምስሉ በጣም እንዳይሰፋ */
+}
+
+/* የአፕል አይኮን እና የጽሑፍ አሰላለፍ */
+.product-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.small-title {
+  font-size: 1.5rem; /* ለጠባቡ ምስል ጽሑፉን ማሳነስ */
+}
+
+/* ለሞባይል ማስተካከያ */
+@media (max-width: 768px) {
+  .wide-bg, .narrow-bg { height: 400px; }
+  .product-title { font-size: 1.2rem; }
+}
+
+/* ********************************* */
+/* ********************************* */
+
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* የሁለቱም ሳጥኖች የጋራ ስታይል */
+.display-box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom center; /* ምስሉን ወደ ታችኛው ክፍል ይገፋዋል */
+  background-color: #f5f5f7;
+  justify-content: flex-start; /* ጽሑፉን ወደ ላይኛው ጫፍ ይሰቅለዋል */
+  overflow: hidden;
+  height: 580px; /* ለሚዛናዊነት ሁለቱም እኩል ቁመት እንዲኖራቸው */
+}
+
+/* 1262x580 ሰፊው ባነር */
+.hero-container {
+  background-image: url(/apple-responsive-staring-base-code/images/home/apple-tv-background.jpg);
+  background-size: cover;
+}
+
+/* 301x384 ጠባቡ ምስል */
+.mini-container {
+  background-image: url(/apple-responsive-staring-base-code/images/home/air-pods.jpg);
+  background-size: contain; /* ምስሉ ሳይቆረጥ እንዲታይ */
+}
+
+/* የጽሑፍ ቀለሞች */
+.text-black {
+  color: #000000 !important;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-name {
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.plus-symbol {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+/* SERVANT ጽሑፍ አቀማመጥ */
+.middle-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  letter-spacing: 12px;
+  font-weight: 100;
+  color: black;
+  opacity: 0.8;
+}
+
+/* የታችኛውን ቁልፍ ወደ ታች መግፊያ */
+.bottom-action {
+    margin-top: auto; 
+}
+
+/* የሞባይል ማስተካከያ */
+@media (max-width: 768px) {
+  .display-box { height: 450px; }
+  .middle-overlay { font-size: 1.5rem; letter-spacing: 5px; }
+}
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+.apple-tv-plus-icon {
+  margin-top: 0px;
+  width: 300px; /* እንደ አስፈላጊነቱ መጠኑን መጨመር ትችላለህ */
+  height: 50px0
+  color: black; /* ቀለሙን ወደ ነጭ መቀየር ከፈለግህ 'white' ማድረግ ትችላለህ */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ማውሱ ሲያርፍበት ቀለሙ እንዲቀየር (Hover effect) */
+.apple-tv-plus-icon:hover {
+  color: #555;
+  transition: color 0.3s ease;
+}
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+
+
+
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+
+/* የሁለቱም ሳጥኖች የጋራ መልክ */
+.feature-box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom center; /* ምስሉን ወደ ታች ይገፋዋል */
+  background-color: #f5f5f7;
+  justify-content: flex-start; /* ጽሑፉን ወደ ላይ ይሰቅለዋል */
+  overflow: hidden;
+  height: 580px; /* የሁለቱንም ቁመት እኩል ለማድረግ */
+}
+
+/* ለትንሹ ምስል (434x367) */
+.side-content {
+  background-image: url(/apple-responsive-staring-base-code/images/home/macbook-pro.jpg);
+  background-size: 85%;
+}
+
+/* ለሰፊው ባነር (1262x580) */
+.main-banner {
+  background-image: url(/apple-responsive-staring-base-code/images/home/new-ipad.jpg);
+  background-size: cover;
+}
+
+/* የጽሑፍ ቀለሞች */
+.title-dark, .desc-text, .dark-link, .banner-title {
+  color: #000000 !important;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tv-label {
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.icon-plus {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+/* በመሃል የሚቀመጥ ጽሑፍ */
+.overlay-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  letter-spacing: 12px;
+  color: #000;
+  opacity: 0.8;
+  font-weight: 100;
+}
+
+/* የግርጌ ቁልፍን ወደ ታችኛው ጫፍ ለመግፋት */
+.footer-action {
+    margin-top: auto; 
+}
+
+/* ለሞባይል ማስተካከያ */
+@media (max-width: 768px) {
+  .feature-box { height: 450px; }
+  .tv-label { font-size: 28px; }
+  .overlay-center { font-size: 1.5rem; letter-spacing: 5px; }
+}
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+  text-decoration: none;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li a {
+  border-right: 1px solid #d2d2d7;
+  padding: 0 5px;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
